@@ -1,0 +1,43 @@
+Part I
+make a directory called first
+change directory to the first folder
+create a file called person.txt
+change the name of person.txt to another.txt
+make a copy of the another.txt file and call it copy.txt
+remove the copy.txt file
+make a copy of the first folder and call it second
+delete the second folder
+
+* mkdir first
+* cd /first
+* touch person.txt
+* mv person.txt another.txt
+* cp another.txt copy.txt
+* rm copy.txt
+* cp first second
+* rm second
+
+Part II
+What does the man command do? Type in man rm. How do you scroll and get out?
+Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+How do you jump between words in the terminal?
+How do you get to the end of a line in terminal?
+How do you move your cursor to the beginning in terminal?
+How do you delete a word (without pressing backspace multiple times) in terminal?
+What is the difference between a terminal and shell?
+What is an absolute path?
+What is an relative path?
+What is a flag? Give three examples of flags you have used.
+What do the r and f flags do with the rm command?
+
+* man command shows related flags and what those command/flags do. Q to exit man command. H to see how to scroll. e to move down one line. y to move up
+* List  information  about the FILEs. -a displays all files including hidden ones
+* CTRL left/right arrow keys
+* CTRL e
+* alt/option then move cursor
+* CTRL w
+* The shell is the program which actually processes commands and returns output. Terminal is an application that gives us a command line interface to interact with the computer
+* specifying a path starting from the root directory /
+* Releative path is Releative to where you are currently in the directory
+* flags enchance the commands we use. ls -a ls -l rm -rf
+* -r removes directories and their contents recursively -f force files and arguments
